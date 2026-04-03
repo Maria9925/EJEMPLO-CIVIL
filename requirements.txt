@@ -5,3 +5,4 @@ pandas
 handcalcs
 Pillow
 sympy
+mystmd==0.0.0
