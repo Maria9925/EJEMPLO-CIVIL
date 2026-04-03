@@ -1,2 +1,5 @@
 format: jb-book
-root: module1_fluid_properties
+root: intro
+
+chapters:
+  - file: module1_fluid_properties
