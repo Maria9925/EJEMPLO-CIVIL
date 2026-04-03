@@ -26,7 +26,7 @@ jobs:
 
       - name: Build the book
         run: |
-          python -m jupyter_book build .
+          python -m jupyter_book build intro.md
 
       - name: List build files
         run: |
