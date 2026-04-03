@@ -32,7 +32,9 @@ jobs:
         run: |
           echo "Contenido de book/:"
           ls -R book/      
-
+      - name: Check jupyter-book
+        run: |
+          jupyter-book --version
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
