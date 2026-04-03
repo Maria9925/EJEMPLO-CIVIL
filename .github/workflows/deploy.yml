@@ -28,6 +28,11 @@ jobs:
         run: |
           python -m jupyter_book build .
 
+      - name: List build files
+        run: |
+          echo "Contenido de _build:"
+          ls -R _build || echo "No existe _build"
+
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
